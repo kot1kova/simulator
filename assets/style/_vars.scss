@@ -1,0 +1,72 @@
+$yellow: #eed917;
+$black: #0f0f10;
+$white: #edeef3;
+$dark: #232325;
+
+$ff-sans: 'DM Sans', sans-serif;
+$ff-inter: 'Inter', sans-serif;
+
+$fw-700: 700; /* bold */
+$fw-600: 600; /* semi */
+$fw-500: 500; /* med */
+$fw-400: 400; /* reg */
+
+$brr-8: 8px;
+$brr-4: 4px;
+
+$br-black: 1px solid #000;
+
+.container {
+	max-width: 1230px;
+	width: 100%;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 80px;
+	font-weight: 700;
+	color: $black;
+	text-transform: uppercase;
+}
+
+.h2-title {
+	text-transform: none;
+	font-family: $ff-inter;
+	font-weight: 600;
+	font-size: 48px;
+	color: $black;
+}
+.h3-title {
+	font-family: $ff-inter;
+	font-weight: 600;
+	font-size: 40px;
+	color: $black;
+}
+
+.custom-prev,
+.custom-next {
+	border-radius: $brr-4;
+	padding: 10px 29px;
+	transition: 0.2s;
+
+	svg {
+		width: 20px;
+		height: 40px;
+	}
+}
+.custom-prev {
+	border: 1px solid $yellow;
+	padding: 10px 29px;
+	&:hover {
+		transition: 0.2s;
+		background-color: #d3bf0e;
+	}
+}
+.custom-next {
+	background-color: $yellow;
+	&:hover {
+		transition: 0.2s;
+		background-color: #d3bf0e;
+	}
+}
